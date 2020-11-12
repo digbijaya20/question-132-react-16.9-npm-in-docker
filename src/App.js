@@ -27,7 +27,7 @@ function App() {
     try {
       setResult(eval(result).toString());
     } catch (err) {
-      setResult("Error");
+      setResult("Math Error");
     }
   };
 
