@@ -14,7 +14,7 @@ function App() {
     setResult(result.slice(0, result.length - 1));
   };
   const handleClear = () => {
-    setResult("");
+    setResult("0");
   };
   const calculate = () => {
     try {
