@@ -33,7 +33,7 @@ function App() {
         <button id="clear" onClick={handleClear}>
           AC
         </button>
-        <button id="detete" onClick={handleBack}>
+        <button id="deleteClick={handleBack}>
           DELETE
         </button>
         <button id="equal" onClick={calculate}>
