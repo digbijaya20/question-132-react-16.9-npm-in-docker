@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState("0");
   //const inputRef = useRef(null);
 
   //useEffect(()=> inputRef.current.focus())
