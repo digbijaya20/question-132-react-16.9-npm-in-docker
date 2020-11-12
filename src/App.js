@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [result, setResult] = useState("0");
+  const [result, setResult] = useState("");
   //const inputRef = useRef(null);
 
   //useEffect(()=> inputRef.current.focus())
@@ -14,7 +14,7 @@ function App() {
     setResult(result.slice(0, result.length - 1));
   };
   const handleClear = () => {
-    setResult("0");
+    setResult("");
   };
   const calculate = () => {
     try {
